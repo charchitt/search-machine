@@ -10,6 +10,7 @@ echo "[1]: medium/intermediate"
 echo "[2]: hard"
 echo "[3]: oscp like"
 echo "[4]: web-application"
+echo "[5]: requiring good enumeration"
 read -p "Enter number: " types
 
 
@@ -54,6 +55,9 @@ case $types in
 		;;
 	"4")
 		main "web"
+		;;
+	"5")
+		main "enumeration"
 		;;
 	*)
 esac	
